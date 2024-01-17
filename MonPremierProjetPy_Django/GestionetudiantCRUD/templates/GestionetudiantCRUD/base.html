@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion Etudiants</title>
+    <link rel="stylesheet" href="{% static 'GestionetudiantCRUD/css/bootstrap.css'%}">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2 class="text-center alert alert-danger">Fonction CRUD Basee sur la gestion d'etudiants</h2>
+        {% block content %} {% endblock content %}
+    </div>
+    <script src="{% static 'GestionetudiantCRUD/js/jquery.js' %}"></script>
+    <script src="{% static 'GestionetudiantCRUD/js/bootstrap.js' %}"></script>
+    <script src="{% static 'GestionetudiantCRUD/js/popper.js' %}"></script>
+
+
+
+</body>
+</html>
